@@ -1,0 +1,77 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ .logo{
+    color: black;
+    font-size: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    padding-left: 20px;
+    float: left;
+
+ }   
+    
+    body{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.menu-bar{
+    text-align: center;
+    background: rgb(126, 126, 117);
+    width: 2000px;
+    margin-top: 30px;
+
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+}
+.menu-bar ul li{
+    width: 130px;
+    margin: 18px;
+}
+
+.active, .menu-bar ul li:hover{
+    background: #66f546;
+    border-radius: 5px;
+
+}
+
+.sign-up-form
+{
+    width: 300px;
+    background-color: whitesmoke;
+    padding: 30px;
+    margin: 8% auto 0 ;
+    text-align: center;
+
+
+}
+
+h3
+{
+    color:blue
+}
+
+
+button
+{
+    color: white;
+    border-radius: 7px;
+
+}
+
+.sign-up{
+    background-color: blue;
+}
+.log-in{
+    background-color: blue;
